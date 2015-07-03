@@ -1,0 +1,137 @@
+
+.grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300%;
+  background: url("../img/grid.png");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: auto;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWELVE  */
+.span_12 {
+  width: 100%;
+}
+
+.span_11 {
+    width: 91.53%;
+}
+.span_10 {
+    width: 83.06%;
+}
+.span_9 {
+    width: 74.6%;
+}
+
+.span_8 {
+    width: 66.13%;
+}
+
+.span_7 {
+    width: 57.66%;
+}
+
+.span_6 {
+    width: 49.2%;
+}
+
+.span_5 {
+    width: 40.73%;
+}
+
+.span_4 {
+    width: 32.26%;
+}
+
+.span_3 {
+    width: 23.8%;
+}
+
+.span_2 {
+    width: 15.33%;
+}
+
+.span_1 {
+    width: 6.866%;
+}
+
+.margin_11 {
+    margin-left: 93.134%;
+}
+
+.margin_10 {
+    margin-left: 84.67%;
+}
+
+.margin_9 {
+    margin-left: 76.2%;
+}
+
+.margin_8 {
+    margin-left: 67.74%;
+}
+
+.margin_7 {
+    margin-left: 59.27%;
+}
+
+.margin_6 {
+    margin-left: 50.8%;
+}
+
+.margin_5 {
+    margin-left: 42.34%;
+}
+
+.margin_4 {
+    margin-left: 33.87%;
+}
+
+.margin_3 {
+    margin-left: 25.4%;
+}
+
+.margin_2 {
+    margin-left: 16.94%;
+}
+
+.margin_1 {
+    margin-left: 8.47%;
+}
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {  margin: 1% 0 1% 0%; }
+    .span_1, .span_2, .span_3, .span_4, .span_5, .span_6, .span_7, .span_8, .span_9, .span_10, .span_11, .span_12 {
+  width: 100%;
+  }
+
+  .margin_1, .margin_2, .margin_3, .margin_4, .margin_5, .margin_6, .margin_7, .margin_8, .margin_9, .margin_10, .margin_11, .margin_12 {
+  margin-left: 0;
+  }
+}
+
