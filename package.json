@@ -1,6 +1,6 @@
 {
   "name": "@economist/component-gridcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple css grid",
   "author": "The Economist (http://economist.com)",
   "license": "ISC",
@@ -12,9 +12,8 @@
   "bugs": {
     "url": "https://github.com/the-economist-editorial/component-gridcss/issues"
   },
-
   "main": "index.css",
- "files": [
+  "files": [
     "*.css"
   ]
 }
