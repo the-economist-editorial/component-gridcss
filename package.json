@@ -12,8 +12,9 @@
   "bugs": {
     "url": "https://github.com/the-economist-editorial/component-gridcss/issues"
   },
+
   "main": "index.css",
-  "files": [
+ "files": [
     "*.css"
   ]
 }
